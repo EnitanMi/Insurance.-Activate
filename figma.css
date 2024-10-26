@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    width: 430px;
+    height: 932px;
+    background-color: #083C0A;
+    margin: 0;
+    position: relative;
+}
+/* SCREEN1 */
+@media (max-width:500px){
+    section .header{
+        position: absolute;
+        width: 339px;
+        height: 358px;
+        left: 32px;
+        top: 53px;
+    }
+    .header h1{
+        width: 274px;
+        height: 125px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+    }
+    .header img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: calc(50% - 100px/2 + 3.5px);
+        top: 125px;
+    }
+    .header h3{
+        position: absolute;
+        width: 331px;
+        height: 48px;
+        left: 8px;
+        top: 310px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+     .eclipse{
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        justify-content: center;
+        left: 0px;
+        top: 800px;
+        bottom: 0px;
+        background: #FFFFFF;
+        align-items: center;
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }  
+    .eclipse img{
+        position: absolute;
+        left: 39%;
+        right: 35.33%;
+        top: 24.01%;
+        bottom: 39.67%;
+    }
+}
+
+/* SCREEN2 */
+@media(max-width:600px){
+     .screen2{
+        width: 372px;
+        height: 358px;
+        position: absolute;
+        top: 53px;
+        left: 32px;
+ }
+ .screen2 h1{
+    width: 372px;
+    height: 125px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+ }
+ .screen2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - 100px/2 - 13px);
+    top: 125px;
+ }
+ .screen2 h3{
+    width: 232px;
+    height: 48px;
+    position: absolute;   
+    left: 8px;
+    top: 310px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+ }
+ .circles{
+    position: absolute;
+    width: 125px;
+    height: 10px;
+    left: calc(50% - 125px/2 + 0.5px);
+    top: 460px;
+ }
+ .circles .circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0%;
+    right: 92%;
+    top: 0%;
+    bottom: 0%;
+    background: #3E8E41;
+
+ }
+ .circles .circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20.8%;
+    right: 71.2%;
+    top: 0%;
+    bottom: 0%;
+    background: #D9D9D9;
+ }
+ .circles .circle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 41.6%;
+    right: 50.4%;
+    top: 0%;
+    bottom: 0%;
+    background: #D9D9D9;
+ }
+ .circles .circle4{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 58.4%;
+    right: 33.6%;
+    top: 0%;
+    bottom: 0%;
+    background: #D9D9D9;
+ }
+ .circles .circle5{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 75.2%;
+    right: 16.8%;
+    top: 0%;
+    bottom: 0%;
+    background: #D9D9D9;
+ }
+ .circles .circle6{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 92%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #D9D9D9;
+ }
+ .eclipse2{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    left: 0px;
+    top: 800px;
+    bottom: 0px;
+    background: #FFFFFF;
+    align-items: center;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+ }
+ .eclipse2 img{
+    position: absolute;
+    left: 39%;
+    right: 35.33%;
+    top: 16.67%;
+    bottom: 43.5%;
+    justify-content: center;
+ }
+.button-right{
+   position: absolute;
+   width: 80px;
+   height: 40px;
+   left: 450px;
+   top: 80rem;
+}
+.button-right a{
+   text-decoration: none;
+}
+.button-right button{
+   position: absolute;
+   width: 80px;
+   height: 40px;
+   left: 0px;
+   top: 0px;
+   border: none;
+   background: #083C0A;
+   border-radius: 24px;
+}
+ .fa-arrow-right{
+   width: 20px;
+   height: 20px;
+   color: #FFFFFF;
+   position: absolute;
+   top: 10px;
+   left: 30px;
+   bottom: 30px;
+}
+}
+
+/* SCREEN3 */
+@media(max-width:600px){
+    #screen{
+      position: absolute;
+      width: 372px;
+      height: 358px;
+      left: 32px;
+      top: 53px;
+   }
+   #screen h1{
+      position: absolute;
+      width: 372px;
+      height: 125px;
+      left: 0px;
+      top: 0px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #FFFFFF;
+   }
+   #screen img{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left: calc(50% - 100px/2 - 13px);
+      top: 125px;
+   }
+   #screen h3{
+      position: absolute;
+      width: 245px;
+      height: 48px;
+      left: 8px;
+      top: 310px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+   }
+   .circles2{
+      position: absolute;
+      width: 104px;
+      height: 10px;
+      left: calc(50% - 104px/2 - 10px);
+      top: 454px;
+   }
+   .circles2 .circle1{
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      position: absolute;
+      left: 0%;
+      right: 90.38%;
+      top: 0%;
+      bottom: 0%;
+      background: #3E8E41;
+   } 
+   .circles2 .circle2{
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background: #3E8E41;
+      position: absolute;
+      left: 25%;
+      right: 65.38%;
+      top: 0%;
+      bottom: 0%;
+   }
+   .circles2 .circle3{
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background: #fff;
+      position: absolute;
+      left: 50%;
+      right: 40.38%;
+      top: 0%;
+      bottom: 0%;
+   }
+   .circles2 .circle4{
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background: #fff;
+      position: absolute;
+      left: 70.19%;
+      right: 20.19%;
+      top: 0%;
+      bottom: 0%;
+   }
+   .circles2 .circle5{
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background: #fff;
+      position: absolute;
+      left: 90.38%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+
+   }
+   .eclipse-2{
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      justify-content: center;
+     display: flex;
+     align-items: center;
+     left: 0px;
+     top: 800px;
+     bottom: 0px;
+     background: #FFFFFF;
+     align-items: center;
+     border-top-left-radius: 150px;
+     border-top-right-radius: 150px;
+   }
+   .eclipse-2 img{
+      position: absolute;
+      left: 39%;
+      right: 35.33%;
+      top: 16.67%;
+      bottom: 43.5%;
+   }
+   .buttonright{
+      position: absolute;
+      width: 80px;
+      height: 40px;
+      left: 450px;
+      top: 80rem;
+   }
+   .buttonright a{
+      text-decoration: none;
+   }
+   .buttonright button {
+      position: absolute;
+      width: 80px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      border: none;
+      background: #083C0A;
+      border-radius: 24px;
+   }
+   .fa-arrow-right{
+      width: 20px;
+      height: 20px;
+      color: #FFFFFF;
+      position: absolute;
+      top: 15px;
+      left: 30px;
+      bottom: 15px;
+   }
+   .buttonleft{
+      position: absolute;
+      width: 80px;
+      height: 40px;
+      left: 27px;
+      top: 80rem;
+   }
+   .buttonleft a{
+      text-decoration: none;
+   }
+   .buttonleft button{
+      position: absolute;
+      width: 80px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      border: none;
+      background: #083C0A;
+      border-radius: 24px;
+   }
+   .fa-arrow-left{
+      width: 20px;
+      height: 20px;
+      color: #FFFFFF;
+      position: absolute;
+      top: 15px;
+      left: 30px;
+      bottom: 15px;
+   }
+}
